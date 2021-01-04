@@ -1,14 +1,5 @@
 import React from "react";
 
-// const img = "https://images-na.ssl-images-amazon.com/images/I/61eZVvoYYUL._AC_UL200_SR200,200_.jpg";
-// const title = "The cooking book";
-// const tag = "#cookery";
-
-// const book = {
-//   img: "https://images-na.ssl-images-amazon.com/images/I/61eZVvoYYUL._AC_UL200_SR200,200_.jpg",
-//   title: "The cooking book",
-//   tag: "#cookery",
-// };
 function Book(props) {
   //   console.log(props);
   const { img, title, tag, rating, review, children } = props;
